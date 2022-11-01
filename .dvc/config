@@ -1,0 +1,6 @@
+[core]
+    remote = s3_storage
+[remote "s3_storage"]
+    url = s3://danmartinec-iterative-bucket/data_registry/
+    version_aware = true
+    worktree = true
